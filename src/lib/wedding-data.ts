@@ -10,6 +10,6 @@ export const wedding = {
     { id: "grah-shanti", name: "Grah Shanti", date: "2026-09-19", dateLabel: "Saturday, 19 September 2026", time: "9:00 AM", venue: "Great Lakes Ballroom", address: "10 Marriott Drive, Lincolnshire, Illinois 60069", note: "Followed by lunch at 11:30 AM", rsvp: true },
     { id: "garba", name: "Sangeet Sandhya & Ras Garba", date: "2026-09-19", dateLabel: "Saturday, 19 September 2026", time: "6:00 PM", venue: "The Grand Ballroom", address: "10 Marriott Drive, Lincolnshire, Illinois 60069", note: "Followed by dinner", rsvp: true },
     { id: "baarat", name: "Baarat", date: "2026-09-20", dateLabel: "Sunday, 20 September 2026", time: "9:30 AM", venue: "Theater Parking Lot", address: "10 Marriott Drive, Lincolnshire, Illinois 60069", rsvp: true },
-    { id: "wedding", name: "Wedding Ceremony", date: "2026-09-20", dateLabel: "Sunday, 20 September 2026", time: "10:30 AM", venue: "The Grand Ballroom", address: "10 Marriott Drive, Lincolnshire, Illinois 60069", note: "Followed by lunch at 12:15 PM", rsvp: true }
+    { id: "wedding", name: "Wedding Ceremony", date: "2026-09-20", dateLabel: "Sunday, 20 September 2026", time: "11:00 AM", venue: "The Grand Ballroom", address: "10 Marriott Drive, Lincolnshire, Illinois 60069", note: "Followed by lunch at 12:15 PM", rsvp: true }
   ] satisfies WeddingEvent[]
 } as const;
