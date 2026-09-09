@@ -1,6 +1,7 @@
 export type WeddingEvent = { id: string; name: string; date: string; dateLabel: string; time: string; venue: string; address: string; note?: string; rsvp: boolean; };
 export const wedding = {
   couple: "Malav & Surbhi", groom: "Malav", bride: "Surbhi", invocation: "॥ Shree Ganeshay Namah ॥",
+  features: { rsvpEnabled: false },
   hosts: "Mrs. Malika Bimal Dalal and Mr. Bimal Surendrakumar Dalal with Mrs. Amita Sanjaykumar Modi and Mr. Sanjaykumar Bhagvatlal Modi",
   rsvp: { name: "Malav Dalal & Surbhi Modi", phone: "214-517-7707", email: "surbhimalav29@gmail.com" },
   events: [
