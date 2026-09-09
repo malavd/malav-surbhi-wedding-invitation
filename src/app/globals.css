@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color-scheme: light; } * { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; background: #FDFBF7; color: #3D0B19; font-family: Georgia, serif; } button, input { font: inherit; } ::selection { background: #D9AE45; color: #3D0B19; }
+.gold-rule { height: 1px; background: linear-gradient(90deg, transparent, #D9AE45 18%, #D9AE45 82%, transparent); }
+.focus-ring { @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold-300; }
